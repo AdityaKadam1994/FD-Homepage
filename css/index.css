@@ -357,6 +357,7 @@ a:hover {
     background-image: url('../images/healthy_diet_bg.webp');
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 30px;
 }
 
 .healthy-diet-description h2 {
@@ -376,6 +377,52 @@ a:hover {
 
 .healthy-diet-description {
     padding-top: 30px;
+}
+
+.faq-heading h1 {
+    margin-bottom: 30px;
+    color: #fcd40a;
+}
+
+.faq-heading p {
+    margin-bottom: 50px;
+    padding: 0 180px;
+}
+
+.faq-section #accordion h5 .btn-link {
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.faq-section #accordion h5 .btn-link.collapsed {
+    font-weight: normal;
+}
+
+.faq-section #accordion .card {
+    border-left: none;
+    border-right: none;
+}
+
+.faq-section #accordion h5 .btn-link:after {
+    content: "\f062";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display: inline-block;
+    position: absolute;
+    right: 3%;
+    color: #d13526;
+}
+
+.faq-section #accordion h5 .btn-link.collapsed::after {
+    content: "\f063";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display: inline-block;
+    position: absolute;
+    right: 3%;
+    color: #d13526;
 }
 
 /* healthy diet section styling ends*/
