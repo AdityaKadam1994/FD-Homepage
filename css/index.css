@@ -63,6 +63,7 @@ a:hover {
     border-radius: 20px;
     box-sizing: border-box;
     color: #d13526;
+    display: inline-block;
 
 }
 
@@ -192,7 +193,7 @@ a:hover {
 .showcase-section .carousel-control-prev-icon {
     background-image: none;
     position: absolute;
-    top: 56%;
+    top: 53%;
 }
 
 .showcase-section .carousel-control-prev-icon {
@@ -215,14 +216,25 @@ a:hover {
 .recipe-img {
     position: absolute;
     right: 0;
-    top: 50%;
+    top: 0;
     width: 20%;
     /* /* transform: translateY(-50%); */
+}
+
+.trait-items:first-child {
+    margin-top: 55px;
 }
 
 .trait-items span:first-child {
     padding: 10px 10px;
     background: #fcd40a;
+    display: inline-block;
+}
+
+
+
+.trait-items {
+    margin-bottom: 40px;
 }
 
 .trait-items span:first-child .fa-check {
@@ -235,13 +247,138 @@ a:hover {
     color: white;
     padding: 10px 50px 10px 12px;
     margin-left: -4px;
+    font-weight: 700;
+    min-width: 240px;
+    display: inline-block;
 }
 
+.traits-wrapper {
+    margin-bottom: 55px;
+}
 
 /* tailor-made-section styling end */
+/* nutriment section styling start */
+.nutriment-section {
+    background-image: url('../images/nutriments_bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
 
+.nutriment-row {
+    margin-right: 0;
+}
 
+.nutriment-row .trait-items {
+    margin-bottom: 0;
+}
 
+.nutriment-row span:first-child {
+    border: 2px solid #d13526;
+    background: transparent;
+    padding: 0px 6px;
+    border-radius: 3px;
+}
+
+.nutriment-row span:first-child .fa-times {
+    color: #d13526;
+}
+
+.nutriment-row .trait-items span:nth-child(2) {
+    background: transparent;
+    color: black;
+    font-size: 20px;
+    padding: 5px 50px 5px 12px;
+}
+
+.nutriment-row .trait-items:last-child span:first-child {
+    padding: 5px 10px;
+    background: #fcd40a;
+    border: none;
+    border-radius: 3px;
+}
+
+.nutriment-row .trait-items:last-child span:nth-child(2) {
+    font-size: 30px;
+    color: #fcd40a;
+
+}
+
+.nutriment-section .get-started-btn {
+    margin-bottom: 30px;
+}
+
+/* nutriment section styling end */
+/* testimonial section styling starts */
+.testimonial-section {
+    padding-bottom: 30px;
+}
+
+.testimonial-heading {
+    margin-bottom: 120px;
+}
+
+.testimonial-heading h1 {
+    color: #fcd40a;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.testimonial-card {
+    background-color: rgb(54, 46, 61);
+    color: #f8eed3;
+    background-image: url('../images/quotes.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 30px 80px 30px;
+    height: 500px;
+}
+
+.testimonial-card .person-testimonial {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 26px;
+    line-height: 45px;
+    margin-top: 30px;
+
+}
+
+.testimonial-card .designation {
+    color: #5f575d;
+}
+
+.testimonial-card img {
+    position: relative;
+    margin-top: -45%;
+}
+
+/* testimonial section styling ends */
+/* healthy diet section styling starts */
+.healthy-diet-section {
+    background-image: url('../images/healthy_diet_bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.healthy-diet-description h2 {
+    color: #fcd40a;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.diet-plan h6 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.diet-plan p {
+    margin-bottom: 20px;
+}
+
+.healthy-diet-description {
+    padding-top: 30px;
+}
+
+/* healthy diet section styling ends*/
 
 /* Mediaquery */
 @media screen and (min-width: 900px) {
