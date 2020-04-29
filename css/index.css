@@ -1,0 +1,177 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    height: 90px;
+}
+
+.navbar-brand {
+    position: absolute;
+    top: 8%;
+}
+
+.navbar {
+    padding: 25px 0;
+}
+
+.navbar .navbar-nav .nav-item {
+    font-weight: bold;
+}
+
+a,
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.right-nav-list ul {
+    list-style: none;
+}
+
+.right-nav-list li {
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.right-nav-list li:last-child a {
+    color: #d13526;
+}
+
+.right-nav-list li:last-child:hover,
+.right-nav-list li:last-child a:hover {
+    background-color: #d13526;
+    color: white !important;
+
+}
+
+.right-nav-list li:last-child {
+    border: 2px solid #d13526;
+    border-radius: 20px;
+}
+
+.right-nav-list li a {
+    font-weight: bold;
+}
+
+.get-started-btn {
+    padding: 5px !important;
+    color: #d13526 !important;
+    border-radius: 20px;
+
+}
+
+.get-started-btn:hover {
+    background-color: #d13526;
+    color: white !important;
+}
+
+/* banner section styling start */
+.banner-section .banner-img {
+    background-image: url('../images/banner.webp');
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -25px;
+    position: relative;
+}
+
+.banner-section .banner-txt>div {
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+
+}
+
+.banner-txt p {
+    font-weight: 900;
+    font-size: 20px;
+    font-size: 28px;
+}
+
+.banner-txt h1 {
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.banner-txt .banner-cta {
+    background: rgb(252, 160, 1);
+    padding: 15px 40px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 24px;
+}
+
+.banner-txt .banner-cta:hover {
+    background: transparent;
+    border: 2px solid rgb(252, 160, 1);
+    color: rgb(252, 160, 1);
+}
+
+/* banner section styling start */
+/* service section styling start */
+.services-section {
+    padding: 100px 0;
+}
+
+.service-wrapper {
+    text-align: center;
+
+}
+
+.service-wrapper img {
+    margin-bottom: 30px;
+}
+
+.service-wrapper p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.service-head {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+
+/* service section styling end */
+/* what we do styling start*/
+.what-we-do-section {
+    background-image: url('../images/what_we_do_bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.what-we-do-row {
+    margin-right: 0;
+}
+
+
+
+.what-we-do-row .get-started-btn {
+    border: 2px solid #d13526;
+    padding: 5px 15px !important;
+    font-weight: 900 !important;
+}
+
+
+
+/* what we do styling end*/
+
+
+
+/* Mediaquery */
+@media screen and (min-width: 900px) {
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        display: inline-block;
+        padding: 0 15px;
+    }
+}
