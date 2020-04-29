@@ -35,7 +35,9 @@ a:hover {
 }
 
 .right-nav-list li:last-child a {
-    color: #d13526;
+    padding: 5px !important;
+    color: #d13526 !important;
+    border-radius: 20px;
 }
 
 .right-nav-list li:last-child:hover,
@@ -55,9 +57,12 @@ a:hover {
 }
 
 .get-started-btn {
-    padding: 5px !important;
-    color: #d13526 !important;
+    border: 2px solid #d13526;
+    padding: 5px 15px !important;
+    font-weight: 900 !important;
     border-radius: 20px;
+    box-sizing: border-box;
+    color: #d13526;
 
 }
 
@@ -152,15 +157,89 @@ a:hover {
 
 
 
-.what-we-do-row .get-started-btn {
-    border: 2px solid #d13526;
-    padding: 5px 15px !important;
-    font-weight: 900 !important;
+.what-we-do-row .get-started-btn {}
+
+/* what we do styling end*/
+/* showcase section styling start*/
+.showcase-section {
+    padding: 100px 0;
+}
+
+.carousel-captn {
+    text-align: center;
+}
+
+.showcase-section .carousel-captn h2 {
+    color: #fcd40a;
+    font-weight: bolder;
+    font-size: 40px;
 }
 
 
+.showcase-section .carousel-control-next {
+    right: -10%;
+}
 
-/* what we do styling end*/
+.showcase-section .carousel-control-prev {
+    left: -10%;
+}
+
+.showcase-section .carousel-captn p {
+    padding: 0 180px;
+}
+
+.showcase-section .carousel-control-next-icon,
+.showcase-section .carousel-control-prev-icon {
+    background-image: none;
+    position: absolute;
+    top: 56%;
+}
+
+.showcase-section .carousel-control-prev-icon {
+    left: 25%;
+}
+
+.showcase-section .carousel-control-next-icon .svg-inline--fa.fa-angle-right.fa-w-8 {
+    display: none !important;
+}
+
+/* showcase section styling ends */
+
+/* tailor-made-section styling starts */
+.tailor-made-section {
+    background-image: url('../images/tailor_made_bg.webp');
+    background-size: cover;
+    position: relative;
+}
+
+.recipe-img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 20%;
+    /* /* transform: translateY(-50%); */
+}
+
+.trait-items span:first-child {
+    padding: 10px 10px;
+    background: #fcd40a;
+}
+
+.trait-items span:first-child .fa-check {
+    color: white;
+    font-size: 18px;
+}
+
+.trait-items span:nth-child(2) {
+    background: #362e3d;
+    color: white;
+    padding: 10px 50px 10px 12px;
+    margin-left: -4px;
+}
+
+
+/* tailor-made-section styling end */
+
 
 
 
