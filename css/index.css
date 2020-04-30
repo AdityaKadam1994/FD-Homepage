@@ -1,4 +1,10 @@
 /* common styling starts */
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
 }
@@ -207,6 +213,10 @@ a:hover {
 
 }
 
+.service-row {
+    padding: 0 150px;
+}
+
 .service-wrapper img {
     margin-bottom: 30px;
 }
@@ -294,8 +304,9 @@ a:hover {
 .recipe-img {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 50%;
     width: 20%;
+    transform: translateY(-50%);
     /* /* transform: translateY(-50%); */
 }
 
@@ -547,7 +558,7 @@ footer a {
 /* footer styling ends */
 
 /* Mediaquery */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 993px) {
     .navbar-nav {
         flex-direction: row;
     }
@@ -556,4 +567,208 @@ footer a {
         display: inline-block;
         padding: 0 15px;
     }
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar .sidebar-menu {
+        padding: 45px 30px 30px 30px;
+    }
+
+    .testimonial-card .person-testimonial {
+        font-size: 22px;
+        line-height: 38px;
+        margin-top: 30px;
+    }
+
+    .sidebar img {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .sidebar-menu .close-sidebar {
+        top: 3%;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar-brand {
+        position: relative;
+        top: auto;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .navbar-brand img {
+        width: 50%;
+    }
+
+    .right-nav-list .navbar-nav {
+
+        flex-direction: row !important;
+    }
+
+    .right-nav-list {
+        margin-right: 6%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+
+    .testimonial-card img {
+        position: relative;
+        margin-top: -75%;
+    }
+
+    .testimonial-card {
+        padding: 50px 10px 80px 10px;
+    }
+
+    .testimonial-card .person-testimonial {
+        font-size: 20px;
+        line-height: 32px;
+        margin-top: 30px;
+    }
+
+    .service-row {
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .banner-section .banner-img {
+        background-position-x: 50%;
+    }
+
+    .navbar>.container {
+        max-width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .service-head .col {
+        flex-basis: calc(90%/2) !important;
+    }
+
+    .what-we-do-row {
+        margin-right: -15px;
+        padding: 0 15px;
+    }
+
+    .showcase-section .carousel-captn p {
+        padding: 0;
+    }
+
+    .nutriment-row {
+        margin-right: -15px;
+        padding: 0 15px;
+    }
+
+    .testimonial-card img {
+        margin-top: 0;
+    }
+
+    .testimonial-card {
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .faq-heading p {
+        padding: 0
+    }
+
+    .faq-heading .card-header {
+        padding: 5px;
+        text-align: left;
+    }
+
+    .faq-section #accordion h5 .btn-link {
+        white-space: normal;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .sidebar .sidebar-menu {
+        padding: 34px 30px 30px 30px;
+    }
+
+    .sidebar-menu .sidebar-menu-list li a {
+        font-size: 16px;
+    }
+
+    .right-nav-list {
+        margin-right: 12%;
+    }
+
+    .right-nav-list a {
+        font-size: 14px;
+    }
+
+    .navbar-brand img {
+        width: 45%;
+    }
+
+    .banner-txt p {
+        font-size: 20px;
+    }
+
+    .banner-txt h1 {
+        font-size: 40px;
+    }
+
+    .what-we-do-row .get-started-btn {
+        margin-bottom: 20px;
+    }
+
+    .what-we-do-row h2 {
+        margin: 10px !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .banner-txt .banner-cta {
+        padding: 8px 20px;
+        font-size: 14px;
+
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .navbar>div {
+        justify-content: start !important;
+    }
+
+    .what-we-do-row .get-started-btn {
+        margin-bottom: 20px;
+    }
+
+    .navbar>div>div {
+        flex-basis: calc(34%/1);
+    }
+
+    .right-nav-list {
+        flex-basis: calc(53%/1) !important;
+    }
+
+    .right-nav-list li:last-child a {
+        font-size: 13px;
+    }
+
+    .right-nav-list li {
+        padding: 0 8px;
+    }
+
 }
