@@ -1,7 +1,28 @@
+/* common styling starts */
 body {
     font-family: 'Quicksand', sans-serif;
 }
 
+
+.get-started-btn {
+    border: 2px solid #d13526;
+    padding: 5px 15px !important;
+    font-weight: 900 !important;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #d13526;
+    display: inline-block;
+
+}
+
+.get-started-btn:hover {
+    background-color: #d13526;
+    color: white !important;
+}
+
+/* common styling ends */
+
+/* header styling starts */
 header {
     height: 90px;
 }
@@ -56,20 +77,77 @@ a:hover {
     font-weight: bold;
 }
 
-.get-started-btn {
-    border: 2px solid #d13526;
-    padding: 5px 15px !important;
-    font-weight: 900 !important;
-    border-radius: 20px;
-    box-sizing: border-box;
-    color: #d13526;
-    display: inline-block;
+/* header styling ends */
+
+/* sidebar styling starts */
+.sidebar img {
+    cursor: pointer;
+}
+
+.sidebar .sidebar-menu {
+    background: rgb(54, 46, 61);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    color: white;
+    right: -999px;
+    /* left: auto; */
+    padding: 85px 30px 30px 30px;
 
 }
 
-.get-started-btn:hover {
-    background-color: #d13526;
-    color: white !important;
+.sidebar-menu .sidebar-menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-menu .sidebar-menu-list li {
+    padding: 8px 0;
+}
+
+.sidebar-menu .sidebar-menu-list li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: white
+}
+
+.sidebar-menu .serving-locations {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.sidebar-menu .contacts {
+    padding-top: 10px;
+}
+
+.sidebar-menu .close-sidebar {
+    position: absolute;
+    top: 8%;
+    font-size: 25px;
+}
+
+.sidebar-menu .contacts a {
+    color: white;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+/* sidebR styling ends */
+/* social icons */
+.social-icons {
+    position: fixed;
+    top: 20%;
+    left: 1%;
+    background: white;
+    opacity: 0.8;
+}
+
+.social-icons a {
+    padding: 8px 10px;
+    display: inline-block;
+    font-size: 20px;
+
 }
 
 /* banner section styling start */
@@ -78,7 +156,7 @@ a:hover {
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-x: -25px;
+    background-position-x: -45px;
     position: relative;
 }
 
@@ -107,7 +185,7 @@ a:hover {
 .banner-txt .banner-cta {
     background: rgb(252, 160, 1);
     padding: 15px 40px;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     border-radius: 24px;
 }
@@ -379,6 +457,14 @@ a:hover {
     padding-top: 30px;
 }
 
+
+/* healthy diet section styling ends*/
+/* faq section start */
+
+.faq-section {
+    padding-bottom: 30px;
+}
+
 .faq-heading h1 {
     margin-bottom: 30px;
     color: #fcd40a;
@@ -395,7 +481,9 @@ a:hover {
     color: black;
     font-size: 18px;
     font-weight: bold;
+    box-sizing: border-box;
 }
+
 .faq-section #accordion h5 .btn-link.collapsed {
     font-weight: normal;
 }
@@ -425,7 +513,38 @@ a:hover {
     color: #d13526;
 }
 
-/* healthy diet section styling ends*/
+.faq-section .card-header {
+    border-bottom: none;
+}
+
+/* faq section ends */
+/* footer styling starts*/
+footer {
+    font-size: 12px;
+    background-color: rgb(54, 46, 61);
+    color: white;
+    padding: 20px 0;
+}
+
+footer .tos ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+footer .copy-right p {
+    margin-bottom: 0;
+}
+
+footer .tos ul li {
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* footer styling ends */
 
 /* Mediaquery */
 @media screen and (min-width: 900px) {
