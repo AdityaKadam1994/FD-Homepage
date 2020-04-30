@@ -1,0 +1,23 @@
+{
+  "name": "fd-homepage",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "grunt": "^1.1.0",
+    "grunt-critical": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdityaKadam1994/FD-Template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdityaKadam1994/FD-Template/issues"
+  },
+  "homepage": "https://github.com/AdityaKadam1994/FD-Template/readme"
+}
