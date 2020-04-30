@@ -157,6 +157,8 @@ a:hover {
 }
 
 /* banner section styling start */
+
+
 .banner-section .banner-img {
     background-image: url('../images/banner.webp');
     height: 600px;
@@ -234,6 +236,11 @@ a:hover {
 
 /* service section styling end */
 /* what we do styling start*/
+.what-we-do-section.lazy {
+    background-image: none;
+    background-color: #F1F1FA;
+}
+
 .what-we-do-section {
     background-image: url('../images/what_we_do_bg.webp');
     background-size: cover;
