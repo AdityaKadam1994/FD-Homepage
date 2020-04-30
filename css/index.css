@@ -626,6 +626,10 @@ footer a {
     .right-nav-list {
         margin-right: 6%;
     }
+
+    .faq-section #accordion h5 .btn-link {
+        white-space: normal;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -700,9 +704,7 @@ footer a {
         text-align: left;
     }
 
-    .faq-section #accordion h5 .btn-link {
-        white-space: normal;
-    }
+
 
 }
 
