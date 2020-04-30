@@ -52,9 +52,10 @@
             <a class="navbar-brand" href="/">
               <img
                 loading="lazy"
-                src="./images/logo.webp"
+                data-src="./images/logo.webp"
                 alt="logo"
                 width="120px"
+                class="lazyload"
               />
             </a>
           </div>
@@ -78,9 +79,9 @@
         </div>
         <div class="sidebar">
           <img
-            src="./images/sidebar.webp"
+            data-src="./images/sidebar.webp"
             alt="sidebar"
-            class="lazy sidebar-icon"
+            class="lazy sidebar-icon lazyload"
             loading="lazy"
           />
           <div class="sidebar-menu text-center">
@@ -141,8 +142,8 @@
                 <div class="service-wrapper">
                   <img
                     loading="lazy"
-                    src="./images/service1.webp"
-                    class="img-fluid"
+                    data-src="./images/service1.webp"
+                    class="img-fluid lazyload"
                     alt="Personalized Nutritionist"
                   />
                   <p>Personalized Nutritionist</p>
@@ -152,8 +153,8 @@
                 <div class="service-wrapper">
                   <img
                     loading="lazy"
-                    src="./images/service2.webp"
-                    class="img-fluid"
+                    data-src="./images/service2.webp"
+                    class="img-fluid lazyload"
                     alt="Tasty Meals"
                   />
                   <p>Tasty Meals</p>
@@ -163,8 +164,8 @@
                 <div class="service-wrapper">
                   <img
                     loading="lazy"
-                    src="./images/service3.webp"
-                    class="img-fluid"
+                    data-src="./images/service3.webp"
+                    class="img-fluid lazyload"
                     alt="Doorstep Delivery"
                   />
                   <p>Doorstep Delivery</p>
@@ -174,8 +175,8 @@
                 <div class="service-wrapper">
                   <img
                     loading="lazy"
-                    src="./images/service4.webp"
-                    class="img-fluid"
+                    data-src="./images/service4.webp"
+                    class="img-fluid lazyload"
                     alt="Weekly Health Tracking"
                   />
                   <p>Weekly Health Tracking</p>
@@ -195,9 +196,9 @@
           <div class="col-md-6">
             <img
               loading="lazy"
-              src="./images/what_we_do.webp"
-              alt=""
-              class="img-fluid"
+              data-src="./images/what_we_do.webp"
+              alt="what we do"
+              class="img-fluid lazyload"
             />
           </div>
           <div class="col-md-6">
@@ -326,8 +327,8 @@
               data-slide="prev"
             >
               <span class="carousel-control-prev-icon" aria-hidden="true"
-                ><img
-                  src="https://img.icons8.com/metro/48/fcd40a/chevron-left.png"
+                ><img class="lazyload"
+                  data-src="https://img.icons8.com/metro/48/fcd40a/chevron-left.png"
               /></span>
               <span class="sr-only">Previous</span>
             </a>
@@ -338,8 +339,8 @@
               data-slide="next"
             >
               <span class="carousel-control-next-icon" aria-hidden="true"
-                ><img
-                  src="https://img.icons8.com/metro/48/fcd40a/chevron-right.png"
+                ><img class="lazyload"
+                  data-src="https://img.icons8.com/metro/48/fcd40a/chevron-right.png"
               /></span>
               <span class="sr-only">Next</span>
             </a>
@@ -404,9 +405,9 @@
       </div>
       <div class="recipe-img">
         <img
-          src="./images/recipe.webp"
+          data-src="./images/recipe.webp"
           alt="recipe"
-          class="img-fluid"
+          class="img-fluid lazyload"
           loading="lazy"
         />
       </div>
@@ -418,9 +419,9 @@
         <div class="row align-items-center nutriment-row">
           <div class="col-md-6">
             <img
-              src="./images/dishes.webp"
+              data-src="./images/dishes.webp"
               alt="dishes"
-              class="img-fluid"
+              class="img-fluid lazyload"
               loading="lazy"
             />
           </div>
@@ -478,9 +479,10 @@
           <div class="col-md-4">
             <div class="testimonial-card text-center">
               <img
-                src="./images/test1.webp"
+                data-src="./images/test1.webp"
                 alt="tina kanjani"
                 loading="lazy"
+                class="lazyload"
               />
               <p class="person-testimonial">
                 “Food Darzee took care of my extreme likes and dislikes as if I
@@ -493,7 +495,8 @@
           <div class="col-md-4">
             <div class="testimonial-card text-center">
               <img
-                src="./images/test2.webp"
+                data-src="./images/test2.webp"
+                class="lazyload"
                 alt="parag kamble"
                 loading="lazy"
               />
@@ -508,9 +511,10 @@
           <div class="col-md-4">
             <div class="testimonial-card text-center">
               <img
-                src="./images/test3.webp"
+                data-src="./images/test3.webp"
                 alt="zeenia wadia"
                 loading="lazy"
+                class="lazyload"
               />
               <p class="person-testimonial">
                 “I've lost 9 kgs in 2 months! Sustained weight loss, heightened
@@ -536,9 +540,9 @@
         <div class="row align-items-center">
           <div class="col-md-6">
             <img
-              src="./images/dish2.webp"
+              data-src="./images/dish2.webp"
               alt="dish2"
-              class="img-fluid"
+              class="img-fluid lazyload"
               loading="lazy"
             />
           </div>
@@ -863,6 +867,9 @@
       crossorigin="anonymous"
       rel="preconnect"
     ></script>
-    <script src="./js/main.js" type="text/javascript"></script>
+    <script src="./js/lazysizes.min.js" async></script>
+    
+  </body>
+    <script src="./js/main.js" type="text/javascript" async></script>
   </body>
 </html>
