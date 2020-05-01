@@ -228,6 +228,10 @@ a:hover {
 
 /* service section styling end */
 /* what we do styling start*/
+.what-we-do-section.lazy {
+  background-image: none;
+  background-color: #f1f1fa;
+}
 
 .what-we-do-section {
   background-image: url("../images/what_we_do_bg.webp");
